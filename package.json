@@ -10,7 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@sentry/cli": "^2.2.0",
+    "@sentry/node": "^7.3.0",
+    "@sentry/tracing": "^7.3.0",
+    "@serverless/cloud": "^2.10.6",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mongo": "^0.1.0",
     "mongoose": "^6.4.0"
