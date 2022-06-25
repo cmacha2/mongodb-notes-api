@@ -4,6 +4,10 @@ const noteShema = new Schema({
     content:String,
     date:Date,
     important:Boolean,
+    user:{
+        type:Schema.Types.ObjectId,
+        ref:'User'
+    }
 })
 
 noteShema.set('toJSON',{
